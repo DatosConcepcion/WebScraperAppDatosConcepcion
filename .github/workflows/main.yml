@@ -26,6 +26,6 @@ jobs:
           
       - name: execute py script 
         run: |
-          git config --local user.email "lelapietra@gmail.com"
-          git config --local user.name "LucasLaPietra"
+          git config --local user.email "pinocomunicacion@gmail.com"
+          git config --local user.name "DatosConcepcion"
           python webscraper.py
