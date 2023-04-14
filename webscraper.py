@@ -161,8 +161,8 @@ def git_push():
         origin = repo.remote(name='origin')
         origin.push()
         print('New contracts pushed to the repo successfully')
-    except:
-        print('An error occured while pushing the code')
+    except Exception as e:
+        print('An error occurred while pushing the code:', str(e))
 
 
 if not os.path.exists(f'./{contractsFolder}'):
